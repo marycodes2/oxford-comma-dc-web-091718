@@ -22,5 +22,5 @@ end
 end
 
 
-array = ['mary', 'joseph', 'mike', 'kevin']
+array = ['mary', 'kevin']
 oxford_comma(array)
