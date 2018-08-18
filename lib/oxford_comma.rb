@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length > 2 do
+  if array.length > 2
     lengths = []
     for x in array do
       x = x.to_s
