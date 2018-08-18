@@ -15,7 +15,6 @@ def oxford_comma(array)
     puts "hello"
 end
 end
-end 
 
 
 array = ['mary', 'joseph', 'mike', 'kevin']
