@@ -11,6 +11,8 @@ def oxford_comma(array)
     array = array.join(", ")
     puts array
     return array
+  else
+    puts "hello"
 end
 end
 
