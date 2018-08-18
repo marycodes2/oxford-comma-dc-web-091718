@@ -12,8 +12,12 @@ def oxford_comma(array)
     erased_comma = array.slice!(length_of_last_elem_plus_2)
     puts array
     return array
+  elsif array.length == 2
+    array = array.insert(-2, "and")
+    array = array.join 
+    array
   else
-    puts "hello"
+    array = array.join
 end
 end
 
