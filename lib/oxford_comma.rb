@@ -5,7 +5,7 @@ def oxford_comma(array)
       x = x.to_s
       lengths << x.length
     end
-    length_of_last_elem_plus_2 = lengths[-1] + 2
+    length_of_last_elem_plus_2 = -(lengths[-1] + 2)
     puts "need to erase this int " + length_of_last_elem_plus_2.to_s
     array = array.insert(-2, "and")
     array = array.join(", ")
