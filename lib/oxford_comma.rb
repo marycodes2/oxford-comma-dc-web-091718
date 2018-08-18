@@ -9,7 +9,7 @@ def oxford_comma(array)
     puts "need to erase this int " + length_of_last_elem_plus_2.to_s
     array = array.insert(-2, "and")
     array = array.join(", ")
-    erased_comma = array.split!(array[length_of_last_elem_plus_2])
+    erased_comma = array.split!(array[-length_of_last_elem_plus_2])
     puts array
     return array
   else
